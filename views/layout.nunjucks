@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html translate="no">
+  <head>
+    <title>salmonkarp</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="icon" href="/images/icon.png" type="image/png">
+  </head>
+  <body>
+    {% block content %}{% endblock %}
+  </body>
+</html>

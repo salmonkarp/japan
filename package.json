@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "watch": "nodemon --ext js,jade --ignore public"
+    "devStart": "nodemon --ext js,nunjucks --ignore public"
   },
   "dependencies": {
     "connect-livereload": "^0.6.1",
@@ -12,9 +12,9 @@
     "debug": "~2.6.9",
     "express": "^4.18.2",
     "http-errors": "~1.6.3",
-    "jade": "^0.29.0",
     "livereload": "^0.9.3",
     "morgan": "~1.9.1",
-    "nodemon": "^3.0.3"
+    "nodemon": "^3.0.3",
+    "nunjucks": "^3.2.4"
   }
 }
