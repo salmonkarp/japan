@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html translate="no">
+  <head>
+    <title>salmonkarp</title>
+    <link rel="stylesheet" href="public/stylesheets/style.css">
+    <link rel="icon" href="public/images/icon.png" type="image/png">
+  </head>
+  <body>
+    <div id="error-message">Error: This website is not optimized for small screens. Please view it on a larger device / reload the page.</div>
+    <div id="body-wrapper">
+        <h1 id="vertical-text">なぜこれを翻訳するのでしょうかなぜこれを翻訳するのでしょうか</h1>
+    </div>
+    <div class="main" id="main">
+        <div class="main-img">
+        <img src="public/images/monochrome1.jpg" alt="" id="image">
+        </div>
+        <div id="main-text">
+        <a class="link" id='about' href="javascript:void(0);" onclick="animateTransition('aboutMain')">about</a>
+        <a class="link-sub">人生についての歌を歌う</a>
+        <a class="link" id='work' href="javascript:void(0);" onclick="animateTransition('workMain')">work</a>
+        <a class="link-sub">あなたは詩を信じなければなりません</a>
+        <a class="link" id='contact' href="javascript:void(0);" onclick="animateTransition('contactMain')">contact</a>
+        <a class="link-sub">たぶん、大きなことはひとつではなく、ただ楽しいことがある小さなことの積み重ねなのかもしれません。</a>
+        </div>
+        <div class="background-pattern"></div>
+        <div class="background-image"></div>
+    </div>
+    <div class="main" id="aboutMain">
+        <div class="about-container">
+        <h1>about me</h1>
+        <div><i>私は逃げません</i></div>
+        <p><br>
+            salmonkarp | they/them <br>
+            website developer, videographer, writer. <br> <br>
+
+            victoria school (2020 - 2021) <br>
+            national junior college (2022 - 2023) <br>
+            <br><br>
+        </p>
+        <a class="otherLink" href="javascript:void(0);" onclick="animateTransitionBack('aboutMain'); realHandleBackHoverOut()" onmouseover="handleBackHover()" onmouseout="handleBackHoverOut(false)">back</a>
+        </div>
+    </div>
+    <div class="main" id="workMain">
+        <div class="about-container" style="margin-top: 8em">
+        <h1>work</h1>
+        <div><i>おめでとう、やったね</i></div>
+        <p><br>
+            <strong>development</strong> <br>
+            - cookies kingdom public website: salmonkarp.com (2024) <br>
+            - cookies kingdom internal order management system (2023) <br>
+            - computing a-levels (2023) <br>
+            <br>
+            <strong>coding competitions</strong> <br>
+            - 1st place in code quest, novice category (2022) <br>
+            - participated in singapore noi finals (2023) <br>
+            - participated in hci cyberthon (2023) <br>
+            - participated in smu whitehacks (2023) <br>
+            - participated in dsta brainhacks (2023) <br>
+            <br>
+            <strong>videography</strong> <br>
+            - director, editor of short film: detective story (2022 - 2023) <br>
+            - exco of national junior college film society (2022 - 2023) <br>
+            - instagram @salmonkarp <br>
+            - youtube @daffodeline <br>
+            <br>
+            <strong>writing</strong> <br>
+            - medium @salmonkarp <br>
+            <br><br>
+        </p>
+        <a class="otherLink" href="javascript:void(0);" onclick="animateTransitionBack('workMain'); realHandleBackHoverOut()" onmouseover="handleBackHover()" onmouseout="handleBackHoverOut(false)">back</a>
+        </div>
+    </div>
+    <div class="main" id="contactMain">
+        <div class="about-container">
+        <h1>contact</h1>
+        <div><i>人間の行為は神の行為よりも優れています</i></div>
+        <p><br>
+            em: garyaxelmuliyono@gmail.com <br>
+            ig: @garyam.alt <br>
+            wa: +6583579401 <br>
+            <br><br>
+            </p>
+        <a class="otherLink" href="javascript:void(0);" onclick="animateTransitionBack('contactMain'); realHandleBackHoverOut()" onmouseover="handleBackHover()" onmouseout="handleBackHoverOut(false)">back</a>
+        </div>
+    </div>
+    <script src="public/javascripts/indexScript.js"></script>
+
+  </body>
+</html>
